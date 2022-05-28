@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sowmya Nandigum</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <a href="#home" class="scroll-top">
+            <i class='bx bx-up-arrow-alt' ></i>
+        </a>
+        <header>
+            <div class="nav container">
+                <a href="#" class="logo">Sowmya</a>
+                <ul class="navbar">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#my website" class="nav-link">My previous website</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                                        
+                </div>
+            </div>
+        </header>
+        <section class="home container" id="home">
+            <div class="home-content">
+                <div class="home-img">
+                    <img src="sowmya pic.jpg" alt="">
+                </div>
+                <div class="home-text">
+                    <h3>Hello</h3>
+                    <h2>I'm <em>Sowmya Nandigum</em></h2>
+                    <p>
+                        I'm a front-end developer with a strong interest for <span class="color">webdevelopment</span>
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about container" id="about">
+            <h2 class="heading">About</h2>
+            <div class="about-content">
+                <div class="about-data">
+                    <span>About me</span>
+                    <h2>
+                        Web developer,<br>
+                        More to know
+                    </h2>
+                    <a href="CV.docx" class="btn" download="">
+                        Download CV
+                        <i class='bx bx-download'></i>
+                    </a>
+                </div>
+                <div class="about-text">
+                    <p>Hello! I am Sowmya Nandigum.Currently learning front end development</p>
+                    <p>will soon be working on a project called hand made crafts!</p>
+                    <p>Learn more about the project with contact button</p>
+                </div>
+            </div>
+
+        </section>
+
+         <section class="web container" id="my website">
+             <h2 class="heading">My Previous website</h2>
+             <div class="web-content">
+                 <div class="web-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Personality project</h2>
+                    <p>This websites tell us about your personality based on your favourite color.This is scientifically proven.</p>
+                    <a href="personality.html">
+                        <button class="btn btn-dark btn-lg">Visit Website</button>
+                    </a>
+                </div>
+             </div>
+         </section>
+
+         <section class="contact container" id="contact">
+             <h2 class="heading">Contact</h2>
+             <form action="" class="contact-form" id="contact-form">
+                 <input type="text" placeholder="Your Name" class="name" required>
+                 <input type="email" name="" id="" placeholder="Email Address" class="email" required>
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Write your review or message here" class="message" required></textarea>
+                 <input type="submit" value="Send" class="send-btn">
+             </form>
+         </section>
+
+         <section class="footer container" id="footer">
+            <div class="social">
+                <a href="mailto:sowmyachowdarynandigum@gmail.com"><i class='bx bx-envelope' ></i></a>
+                <a href="http://www.facebook.com/sowmyachowdary75@yahoo.in"><i class='bx bxl-facebook'></i></a>
+                <a href="http://www.twitter.com/@NandigumSowmya"><i class='bx bxl-twitter'></i></a>
+                <a href="http://www.instagram.com/sowmya_nandigum"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Disclaimer</a>
+            </div>
+
+            <p>&#169; sowmyaportfolio</p>
+         </section>
+
+         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+         <script type="text/javascript">
+             (function(){
+                 emailjs.init("eOzQryYxFD91mS4Ae");
+             })();
+         </script>
+
+
+        <script src="main.js"></script> 
+    </body>
+</html>
